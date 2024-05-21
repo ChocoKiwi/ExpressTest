@@ -1,0 +1,2 @@
+::1 - - [19/May/2024:08:12:32 +0000] "GET /article/1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+::1 - - [19/May/2024:08:12:33 +0000] "GET / HTTP/1.1" 304 - "http://localhost:3000/article/1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"

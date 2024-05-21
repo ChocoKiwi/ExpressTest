@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>База данных</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/pguti_icr_blue.png" alt="psuti_logo">
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <% messages.forEach(function(message) { %>
+                <div class="message">
+                    <a href="/article/<%= message.id %>">
+                        <h2>
+                            <%= message.title %>
+                        </h2>
+                    </a>
+                    <p>
+                        <%= message.date %>
+                    </p>
+                </div>
+                <% }) %>
+        </div>
+    </div>
+</body>
+
+</html>

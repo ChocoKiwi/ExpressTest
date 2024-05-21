@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header .logo>img {
+    width: 500px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    padding: 10px;
+    width: 100vh;
+    height: 75vh;
+    border: 1px solid #313186;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.message {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.back>a {
+    display: flex;
+    justify-content: end;
+}
